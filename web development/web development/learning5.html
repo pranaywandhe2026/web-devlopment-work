@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admission form</title>
+    <style>
+        body{
+            background-image: url('https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sbGVnZSUyMGNhbXB1c3xlbnwwfHwwfHw%3D&w=1000&q=80 width=1000px');
+            background-repeat: no-repeat;
+            background-position: left;
+            background-color: aqua;
+        }
+        *{
+            padding-left: 25px;
+        }
+        
+        div,label{
+            color: rgb(247, 142, 5);
+        }
+        input{
+            border: 2px solid black;
+        }
+     
+        
+    </style>
+</head>
+
+<body>
+    <h1>MCA ADMISSION FORM</h1>
+    <form action="backend.python"></form>
+    <label for="name">Name</label>
+    <div>
+        <input type="name" id="name" name="myname">
+    </div><br>
+    <label for="name">ADHARCARD FULL NAME</label>
+    <div>
+        <input type="jobname" name="myjob" id="name">
+    </div><br>
+    <label for="gender">GENDER</label><br>
+    <div>
+        male <input type="radio" name="mygender" id="gender">
+        female <input type="radio" name="mygender" id="gender">
+    </div><br>
+    <label for="eligibility">ARE YOU ELIGIBLE</label><br>
+    <div>
+        YES <input type="checkbox" name="myeligibility" id="eligibility">
+        NO <input type="checkbox" name="myeligibility" id="eligibility">
+    </div><br>
+    <label for="email">ENTER YOUR EMAIL ID</label>
+    <div>
+        <input type="email" name="myemailid" id="email">
+    </div><br>
+    <label for="graduation" class="greenbg"> MY GRADUATION</label><br>
+    <div>
+       BCA: <input type="radio" name="mygraduation" id="graduation ">
+       BCs IT: <input type="radio" name="mygraduation" id="graduation">
+       BCS CS: <input type="radio" name="mygraduation" id="graduation">
+    </div><br>
+    <label for="date">DATE OF HSC COMPLETION</label>
+    <div><br>
+        <input type="date" name="mydate" id="date">
+    </div><br>
+    <label for="about" class="greenbg"> WRITE ABOUT YOURSELF</label>
+    <div><br>
+        <textarea name="mytext" id="about" cols="30" rows="10"></textarea>
+    </div><br>
+    <br>
+    <label for="submit" class="greenbg">DO YOU WANT TO SUBMIT FORM ?</label>
+    <div>
+        <input type="submit" value="submit now" id="submit">
+    </div>
+       
+
+       
+    
+</body>
+
+</html>

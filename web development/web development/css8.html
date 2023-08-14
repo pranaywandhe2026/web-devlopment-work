@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url('https://images.unsplash.com/photo-1470246973918-29a93221c455?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+        }
+
+        .container{
+            width:600px;
+            border:3px solid green;
+            background-color: #d3d0c5;
+            margin:33px auto;
+            padding: 50px;
+        }
+        .item{
+            border:3px solid grey;
+            margin: 12px 3px;
+            padding:5px 40px;
+            background-color: aqua;
+            
+        }
+        #mobiles{
+            float:right;
+            width:48%;
+            padding: -10px;
+        }
+        #computers{
+            float:left;
+            width:48%;
+        }
+        #televisions{
+            clear:both;
+            clear:left;
+            width:500px;
+            margin: auto;
+        }
+        p{
+            text-align: justify;
+        }
+        h1{
+           margin: 0px 250 px;;
+           
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WELCOME TO MY STORE</h1>
+        <div id="mobiles" class="item">
+            <h3>MOBILES</h3>
+           <p id="mobilepara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit doloremque earum consequuntur omnis delectus nulla, quis quae, beatae ipsam cumque, similique eaque porro! Perferendis debitis reiciendis et tempore ipsa nisi laudantium repellendus ducimus distinctio.</p>
+        </div>
+        <div id="computers" class="item">
+            <h3>COMPUTERS</h3>
+           <p id="computerspara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit doloremque earum consequuntur omnis delectus nulla, quis quae, beatae ipsam cumque, similique eaque porro! Perferendis debitis reiciendis et tempore ipsa nisi laudantium repellendus ducimus distinctio.</p>
+        </div>
+        <div id="televisions" class="item">
+            <h3>TELEVISIONS</h3>
+           <p id="televisionsara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit doloremque earum consequuntur omnis delectus nulla, quis quae, beatae ipsam cumque, similique eaque porro! Perferendis debitis reiciendis et tempore ipsa nisi laudantium repellendus ducimus distinctio.</p>
+        </div>
+        
+    </div>
+</body>
+</html>
